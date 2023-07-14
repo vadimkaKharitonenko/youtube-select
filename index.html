@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <div class="select js-select">
+        <input class="select__input js-select-input" type="text" placeholder="Select Occupation" disabled>
+        <svg class="select__chevron js-select-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+          <path opacity="0.8" d="M1 1L6 6L11 1" stroke="black" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="select__dropdown js-select-dropdown">
+          <div class="select__item js-select-item" data-value="Businessman">Businessman</div>
+          <div class="select__item js-select-item" data-value="Employee">Employee</div>
+          <div class="select__item js-select-item" data-value="Freelancer">Freelancer</div>
+          <div class="select__item js-select-item" data-value="Retired">Retired</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
